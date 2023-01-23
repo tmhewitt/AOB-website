@@ -1,7 +1,74 @@
-.header {
-    padding: 60px;
-    text-align: center;
-    background: #164fde;
+body {
+    background-color: black;
     color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.header {
+    height: auto;
+    text-align: center;
+    background: #2a53bc60;
+    color: rgb(255, 255, 255);
     font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+    
+}
+
+.contact-us {
+    display: flex;
+    align-self: center;
+}
+
+.locations {
+    display: flex;
+    align-self: center;
+    
+    margin-left: auto;
+
+}
+
+.logo {
+    display: flex;
+    align-self: center;
+  
+}
+
+.banner-image {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.quote-container {
+    color: #fff;
+    background-color: blue;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    
+    
+}
+.quote-one, .quote-two, .quote-three {
+    display: flex;
+    border: 1px solid #fff;
+    align-items: center;
+    justify-content: space-around;
+    width: 300px;
+    text-align: center;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+.quote-one:hover, .quote-two:hover, .quote-three:hover {
+    background-color: orange;
+}
+.signup {
+    margin: 50px;
 }
